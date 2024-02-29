@@ -63,6 +63,12 @@ export default [
         component: './Admin/InterfaceInfo',
       },
       {
+        name: '问题管理',
+        icon: 'table',
+        path: '/admin/question',
+        component: './Admin/QuestionManager',
+      },
+      {
         name: '接口统计分析',
         icon: 'analysis',
         path: '/admin/analysis_InterfaceInfo',

@@ -116,7 +116,7 @@ declare namespace API {
 
   type getQuestionVOByIdUsingGETParams = {
     /** id */
-    id?: string;
+    id?: number;
   };
 
   type getUserByIdUsingGETParams = {
@@ -361,7 +361,7 @@ declare namespace API {
   type QuestionUpdateRequest = {
     answer?: string;
     content?: string;
-    id?: string;
+    id?: number;
     judgeCase?: JudgeCase[];
     judgeConfig?: string;
     tagList?: string[];

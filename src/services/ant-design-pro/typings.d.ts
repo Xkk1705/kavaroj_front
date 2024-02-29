@@ -34,7 +34,7 @@ declare namespace API {
     pageSize?: number;
   };
 
-  type RuleListItem = {
+  type  RuleListItem = {
     key?: number;
     disabled?: boolean;
     href?: string;
